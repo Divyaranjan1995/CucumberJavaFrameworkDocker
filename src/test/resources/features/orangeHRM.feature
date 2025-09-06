@@ -11,4 +11,4 @@ Feature: Orange HRM application cases
       | Admin    | admin123 | Employees on Leave Today          |
       | Admin    | admin123 | Buzz Latest Posts                 |
       | Admin    | admin123 | Employee Distribution by Sub Unit |
-      | Admin    | admin123 | Invalid Tab Name                  |
+      | Admin    | admin123 | Employee Distribution by Sub Unit |
