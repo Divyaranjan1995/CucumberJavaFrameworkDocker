@@ -1,5 +1,5 @@
 Feature: Orange HRM application cases
-  @Orange
+  @Orange @Sanity
   Scenario Outline: Login with Valid credentials and verify the homePage contains <tab>
     Given user is on login page
     When user enters <userName> and <password> and clicks on Login buttton
