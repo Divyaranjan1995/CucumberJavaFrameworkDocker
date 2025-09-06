@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d9b30046-ed6a-43b1-b9a0-fe08e77e4388" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/allure.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/environment.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/executors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/HomePageObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/LoginPageObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjects/PageObjectManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/ReRunRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/RunnerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomePageStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginPageStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/AllureManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/ExtentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/GenericUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/TestContextSetup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/orangeHRM.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/properties/config.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2zNMCLyXVqj0LnoSQzk7OndZH7X" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.Feature: LoginFeature.executor": "Run",
+    "Cucumber Java.Feature: orangeHRM.executor": "Run",
+    "Cucumber Java.Scenario: Login with Valid credentials and verify the homePage contains <tab> - @Orange - Example n°1.executor": "Debug",
+    "Cucumber Java.Scenario: Login with Valid credentials and verify the homePage contains <tab>.executor": "Run",
+    "Cucumber Java.Scenario: Login with valid username and password -  - Example n°1.executor": "Run",
+    "Cucumber Java.Scenario: Login with valid username and password - @Login - Example n°1.executor": "Run",
+    "Cucumber Java.Scenario: Login with valid username and password.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.CucumberJavaFramework [clean].executor": "Run",
+    "Maven.CucumberJavaFramework [test].executor": "Run",
+    "Maven.CucumberJavaFramework.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.D:/Learning/SeleniumByAmuthan/CucumberJavaFramework/testng.xml.executor": "Run",
+    "TestNG.D:/Learning/SeleniumByAmuthan/CucumberJavaFrameworkDocker/testng.xml.executor": "Run",
+    "TestNG.ReRunRunner.executor": "Run",
+    "TestNG.Runner.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Learning/SeleniumByAmuthan/CucumberJavaFrameworkDocker/allure-results",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Learning\SeleniumByAmuthan\CucumberJavaFrameworkDocker\allure-results" />
+      <recent name="D:\Learning\SeleniumByAmuthan\CucumberJavaFrameworkDocker\src\test\resources\properties" />
+      <recent name="D:\Learning\SeleniumByAmuthan\CucumberJavaFrameworkDocker\reports\allure-results" />
+      <recent name="D:\Learning\SeleniumByAmuthan\CucumberJavaFramework\src\test\resources\features" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Learning\SeleniumByAmuthan\CucumberJavaFrameworkDocker\allure-report\data" />
+      <recent name="D:\Learning\SeleniumByAmuthan\CucumberJavaFrameworkDocker\allure-results" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="runners" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.D:/Learning/SeleniumByAmuthan/CucumberJavaFrameworkDocker/testng.xml">
+    <configuration name="Scenario: Login with Valid credentials and verify the homePage contains &lt;tab&gt; - @Orange - Example n°1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/orangeHRM.feature:11" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberJavaFramework" />
+      <option name="NAME_FILTER" value="^Login with Valid credentials and verify the homePage contains .*$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login with Valid credentials and verify the homePage contains .*$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Login with Valid credentials and verify the homePage contains &lt;tab&gt; - @Orange - Example n°1" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Login with Valid credentials and verify the homePage contains &lt;tab&gt;" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/orangeHRM.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberJavaFramework" />
+      <option name="NAME_FILTER" value="^Login with Valid credentials and verify the homePage contains .*$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login with Valid credentials and verify the homePage contains .*$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Login with Valid credentials and verify the homePage contains &lt;tab&gt;" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CucumberJavaFramework [test]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="D:/Learning/SeleniumByAmuthan/CucumberJavaFrameworkDocker/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CucumberJavaFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReRunRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CucumberJavaFramework" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.ReRunRunner" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunnerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CucumberJavaFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cucumberOptions" />
+      <option name="MAIN_CLASS_NAME" value="runners.RunnerTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Scenario: Login with Valid credentials and verify the homePage contains &lt;tab&gt; - @Orange - Example n°1" />
+      <item itemvalue="Cucumber Java.Scenario: Login with Valid credentials and verify the homePage contains &lt;tab&gt;" />
+      <item itemvalue="Maven.CucumberJavaFramework [test]" />
+      <item itemvalue="TestNG.D:/Learning/SeleniumByAmuthan/CucumberJavaFrameworkDocker/testng.xml" />
+      <item itemvalue="TestNG.RunnerTest" />
+      <item itemvalue="TestNG.ReRunRunner" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.D:/Learning/SeleniumByAmuthan/CucumberJavaFrameworkDocker/testng.xml" />
+        <item itemvalue="TestNG.RunnerTest" />
+        <item itemvalue="Cucumber Java.Scenario: Login with Valid credentials and verify the homePage contains &lt;tab&gt; - @Orange - Example n°1" />
+        <item itemvalue="TestNG.ReRunRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Login with Valid credentials and verify the homePage contains &lt;tab&gt;" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9b30046-ed6a-43b1-b9a0-fe08e77e4388" name="Changes" comment="" />
+      <created>1751566950676</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751566950676</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pageObjects/LoginPageObjects.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

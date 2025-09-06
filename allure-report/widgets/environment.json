@@ -1,0 +1,1 @@
+[{"values":["linux"],"name":"os_platform"},{"values":["5.15.0-60-generic"],"name":"os_release"},{"values":["#66-Ubuntu SMP Fri Jan 20 14:29:49 UTC 2023"],"name":"os_version"},{"values":["Python 3.10.9"],"name":"python_version"},{"values":["My Project - Automation Test Report"],"name":"allure.report.title"}]

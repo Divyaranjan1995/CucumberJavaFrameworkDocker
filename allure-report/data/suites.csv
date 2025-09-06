@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","14539","Login with Valid credentials and verify the homePage contains Buzz Latest Posts","","2025-09-06","passed","2025-09-06","","Orange HRM application cases","Login with Valid credentials and verify the homePage contains Buzz Latest Posts",""
+"","20313","Login with Valid credentials and verify the homePage contains Invalid Tab Name","","2025-09-06","failed","2025-09-06","","Orange HRM application cases","Login with Valid credentials and verify the homePage contains Invalid Tab Name",""
+"","18596","Login with Valid credentials and verify the homePage contains Employees on Leave Today","","2025-09-06","passed","2025-09-06","","Orange HRM application cases","Login with Valid credentials and verify the homePage contains Employees on Leave Today",""
+"","14509","Login with Valid credentials and verify the homePage contains Employee Distribution by Sub Unit","","2025-09-06","passed","2025-09-06","","Orange HRM application cases","Login with Valid credentials and verify the homePage contains Employee Distribution by Sub Unit",""
