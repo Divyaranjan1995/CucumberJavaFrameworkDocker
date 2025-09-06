@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9b30046-ed6a-43b1-b9a0-fe08e77e4388" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="d9b30046-ed6a-43b1-b9a0-fe08e77e4388" name="Changes" comment="update code">
+      <change beforePath="$PROJECT_DIR$/ExtentReports/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports/ExtentReport.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Divyaranjan1995"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Divyaranjan1995/CucumberJavaFrameworkDocker.git",
+    "accountId": "3a7b02a3-3125-47a1-baea-bfc48864712d"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -228,7 +239,20 @@
       <option name="presentableId" value="Default" />
       <updated>1751566950676</updated>
     </task>
+    <task id="LOCAL-00001" summary="update code">
+      <option name="closed" value="true" />
+      <created>1757171628620</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1757171628620</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update code" />
+    <option name="LAST_COMMIT_MESSAGE" value="update code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

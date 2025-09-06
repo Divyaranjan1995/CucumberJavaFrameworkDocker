@@ -25,7 +25,6 @@
           <includes>
             <include>**/runners/*Test.java</include>
           </includes>
-          <testFailureIgnore>false</testFailureIgnore>
           <systemPropertyVariables>
             <dataproviderthreadcount>5</dataproviderthreadcount>
           </systemPropertyVariables>
