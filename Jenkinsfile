@@ -10,14 +10,9 @@ pipeline {
                 git branch: 'main', url:'https://github.com/Divyaranjan1995/CucumberJavaFrameworkDocker.git'
             }
         }
-        stage('Build') {
+        stage('Build & Test') {
             steps {
-                bat 'mvn clean install'
-            }
-        }
-        stage('Test') {
-            steps {
-                bat 'mvn test'
+                bat 'mvn clean test'
             }
         }
         stage('Report') {
