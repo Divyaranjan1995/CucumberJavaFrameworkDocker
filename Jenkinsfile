@@ -4,7 +4,21 @@ pipeline {
     tools{
         maven 'MyMaven'
     }
+
+    environment{
+        COMPOSE_PATH = "${WORKSPACE}"
+    }
     stages {
+        stage('Start Selenium Grid via Docker'){
+            steps{
+                script{
+                    echo "Starting selenium grid with docker compose"
+                    bat "docker-compose -f ${COMPOSE_PATH}\\docker-compose.yml up -d"
+                    echo "Waiting for Selenium Grid to be Ready"
+                    sleep 30
+                }
+            }
+        }
         stage('Checkout') {
             steps {
                 git branch: 'main', url:'https://github.com/Divyaranjan1995/CucumberJavaFrameworkDocker.git'
@@ -23,6 +37,15 @@ pipeline {
                         jdk: '',
                         results: [[path: 'allure-results']]  // or 'target/allure-results' if using Maven
                     ])
+                }
+            }
+        }
+        stage('End Selenium Grid via Docker'){
+            steps{
+                script{
+                    echo "Closing selenium grid with docker compose"
+                    bat "docker-compose down"
+                    sleep 10
                 }
             }
         }
