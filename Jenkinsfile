@@ -40,7 +40,8 @@ pipeline {
 
                     <p><a href="${env.BUILD_URL}">Click here</a> to see full build details.</p>
                 """,
-                mimeType: 'text/html'
+                mimeType: 'text/html',
+                to: 'divyaranjan1995@gmail.com'
             )
         }
     }
