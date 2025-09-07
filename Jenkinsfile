@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools{
-        maven 'maven-3.9.10'
+        maven 'MyMaven'
     }
     stages {
         stage('Checkout') {
@@ -21,6 +21,10 @@ pipeline {
             }
         }
         stage('Report') {
+
+            steps {
+
+            }
 
             post {
                 always {
