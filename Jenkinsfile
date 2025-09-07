@@ -21,21 +21,16 @@ pipeline {
             }
         }
         stage('Report') {
-
             steps {
-
-            }
-
-            post {
-                always {
-                    // archive allure-results directory to Jenkins
+                script {
                     allure([
                         includeProperties: false,
                         jdk: '',
-                        results: [[path: 'allure-results']]
-                    ])
-                }
-            }
+                        results: [[path: 'allure-results']]  // or 'target/allure-results' if using Maven
+            ])
         }
+    }
+}
+
     }
 }
