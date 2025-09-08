@@ -28,10 +28,11 @@ public class LoginPageStepDef {
     }
 
     @When("^user enters (.+) and (.+) and clicks on Login buttton$")
-    public void userEntersAndAndClicksOnLoginButtton(String userName, String password) {
+    public void userEntersAndAndClicksOnLoginButtton(String userName, String password) throws InterruptedException {
         AllureManager.info("User will now enter userName and Password");
         testContextSetup.pageObjectManager.getLoginPageObjects().loginToApplication(userName,password);
         AllureManager.pass("User successfully entered the user name and password.");
+        Thread.sleep(30000);
 
     }
 }
