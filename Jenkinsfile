@@ -54,13 +54,14 @@ pipeline {
     post {
         always {
             emailext (
-                subject: "$PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS!",
+                subject: "Build #${env.BUILD_NUMBER} - ${currentBuild.currentResult}",
                 body: """
-                    <p>Hello Team,</p>
-<p>The latest Jenkins build has completed.</p>
-<p>🛠 **Project Name**: $PROJECT_NAME <br />🔢 **Build Number**: #$BUILD_NUMBER <br />📜 **Build Status**: $BUILD_STATUS <br />🔗 **Build URL**: [Click here]($BUILD_URL) <br />📜 **Last Commit:**</p>
-<p>$GIT_COMMIT <br />📂 **Branch**: $GIT_BRANCH <br />📎 **Build log is attached.**<br />📎 **Extent Report:** [Click here] http://3.86.12.128:8080/job/OrangeHRMPipeline/allure/</p>
-<p>Best regards, <br />Automation Team</p>
+                    <p>Hi Team,</p>
+                    <p>The Jenkins build <b>#${env.BUILD_NUMBER}</b> for job
+                    <b>${env.JOB_NAME}</b> has finished with status:
+                    <b style="color:red">${currentBuild.currentResult}</b>.</p>
+
+                    <p><a href="${env.BUILD_URL}">Click here</a> to see full build details.</p>
                 """,
                 mimeType: 'text/html',
                 to: 'divyaranjan1995@gmail.com'
