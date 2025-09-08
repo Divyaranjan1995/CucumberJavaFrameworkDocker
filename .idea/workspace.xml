@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9b30046-ed6a-43b1-b9a0-fe08e77e4388" name="Changes" comment="added sleep">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+    <list default="true" id="d9b30046-ed6a-43b1-b9a0-fe08e77e4388" name="Changes" comment="updated email body">
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginPageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginPageStepDef.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -368,7 +367,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757346040853</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="updated email body">
+      <option name="closed" value="true" />
+      <created>1757346473225</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1757346473225</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -378,7 +385,8 @@
     <MESSAGE value="update code" />
     <MESSAGE value="changed grid url" />
     <MESSAGE value="added sleep" />
-    <option name="LAST_COMMIT_MESSAGE" value="added sleep" />
+    <MESSAGE value="updated email body" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated email body" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -32,7 +32,7 @@ public class LoginPageStepDef {
         AllureManager.info("User will now enter userName and Password");
         testContextSetup.pageObjectManager.getLoginPageObjects().loginToApplication(userName,password);
         AllureManager.pass("User successfully entered the user name and password.");
-        Thread.sleep(30000);
+//        Thread.sleep(30000);
 
     }
 }
