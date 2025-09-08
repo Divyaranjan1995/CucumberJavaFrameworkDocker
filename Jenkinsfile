@@ -13,7 +13,7 @@ pipeline {
             steps{
                 script{
                     echo "Starting selenium grid with docker compose"
-                    bat "docker-compose -f ${COMPOSE_PATH}\\docker-compose.yml up -d"
+                    sh "docker-compose -f ${COMPOSE_PATH}\\docker-compose.yml up -d"
                     echo "Waiting for Selenium Grid to be Ready"
                     sleep 30
                 }
@@ -26,7 +26,7 @@ pipeline {
         }
         stage('Build & Test') {
             steps {
-                bat 'mvn clean test'
+                sh 'mvn clean test'
             }
         }
         stage('Report') {
@@ -44,7 +44,7 @@ pipeline {
             steps{
                 script{
                     echo "Closing selenium grid with docker compose"
-                    bat "docker-compose down"
+                    sh "docker-compose down"
                     sleep 10
                 }
             }
