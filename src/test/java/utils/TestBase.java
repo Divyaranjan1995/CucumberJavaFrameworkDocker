@@ -44,7 +44,7 @@ public class TestBase {
 
     public void webDriverManager() throws IOException {
         String url = prop.getProperty("url");
-        String browserName = prop.getProperty("browser");
+        String browserName = System.getProperty("browser", prop.getProperty("browser"));
         String runMode = prop.getProperty("runMode");  // local or docker
         String gridUrl = prop.getProperty("gridUrl");
 

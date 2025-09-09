@@ -5,6 +5,14 @@ pipeline {
         maven 'MyMaven'
     }
 
+    parameters {
+        choice(
+            name: 'BROWSER',
+            choices: ['chrome', 'firefox', 'edge'],
+            description: 'Select the browser to run tests'
+        )
+    }
+
     environment{
         COMPOSE_PATH = "${WORKSPACE}"
     }
@@ -13,7 +21,7 @@ pipeline {
             steps{
                 script{
                     echo "Starting selenium grid with docker compose"
-                    sh "docker-compose -f ${COMPOSE_PATH}/docker-compose.yml up -d"
+                    bat "docker-compose -f ${COMPOSE_PATH}/docker-compose.yml up -d"
                     echo "Waiting for Selenium Grid to be Ready"
                     sleep 30
                 }
@@ -26,7 +34,7 @@ pipeline {
         }
         stage('Build & Test') {
             steps {
-                sh 'mvn clean test'
+                bat 'mvn clean test -Dbrowser=${params.BROWSER}'
             }
         }
         stage('Report') {
@@ -44,7 +52,7 @@ pipeline {
             steps{
                 script{
                     echo "Closing selenium grid with docker compose"
-                    sh "docker-compose down"
+                    bat "docker-compose down"
                     sleep 10
                 }
             }
