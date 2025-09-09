@@ -68,7 +68,7 @@ jobs:
         with:
           gh_pages: gh-pages
           allure_history: allure-history
-          allure_results: target/allure-results   # <--- Maven output folder
+          allure_results: allure-results   # <--- Maven output folder
 
       # 7. Publish Allure report to GitHub Pages
       - name: Publish Allure report
