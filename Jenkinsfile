@@ -64,21 +64,55 @@ pipeline {
             emailext (
             subject: "Project: ${env.JOB_NAME} | Build #${env.BUILD_NUMBER} - ${currentBuild.currentResult}",
             body: """
-                Hello Team,<br><br>
-                The latest Jenkins build has completed.<br><br>
+                <html>
+                <body style="font-family: Arial, sans-serif; font-size: 14px; color: #333;">
+                    <p>Hello Team,</p>
+                    <p>The latest Jenkins build has completed. Please find the details below:</p>
 
-                🛠 <b>Project Name</b>: ${env.JOB_NAME}<br>
-                🔢 <b>Build Number</b>: #${env.BUILD_NUMBER}<br>
-                📜 <b>Build Status</b>: ${currentBuild.currentResult}<br>
-                🔗 <b>Build URL</b>: <a href="${env.BUILD_URL}">Click here</a><br>
-                📜 <b>Last Commit:</b><br><br>
-                ${env.GIT_COMMIT}<br>
-                📂 <b>Branch</b>: ${env.GIT_BRANCH}<br>
-                📎 <b>Build log is attached.</b><br>
-                📎 <b>Extent Report:</b> <a href="http://localhost:8080/job/OrangeHRMProject/allure/">Click here</a><br><br>
+                    <table style="border-collapse: collapse; width: 100%; max-width: 600px;">
+                        <tr>
+                            <td style="padding: 8px; font-weight: bold;">🛠 Project Name</td>
+                            <td style="padding: 8px;">${env.JOB_NAME}</td>
+                        </tr>
+                        <tr style="background-color: #f9f9f9;">
+                            <td style="padding: 8px; font-weight: bold;">Build Number</td>
+                            <td style="padding: 8px;">#${env.BUILD_NUMBER}</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 8px; font-weight: bold;">Build Status</td>
+                            <td style="padding: 8px; color: ${currentBuild.currentResult == 'SUCCESS' ? 'green' : 'red'};">
+                                <b>${currentBuild.currentResult}</b>
+                            </td>
+                        </tr>
+                        <tr style="background-color: #f9f9f9;">
+                            <td style="padding: 8px; font-weight: bold;">Build URL</td>
+                            <td style="padding: 8px;">
+                                <a href="${env.BUILD_URL}" style="color: #1a73e8;">Click here</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 8px; font-weight: bold;">Last Commit</td>
+                            <td style="padding: 8px;">${env.GIT_COMMIT}</td>
+                        </tr>
+                        <tr style="background-color: #f9f9f9;">
+                            <td style="padding: 8px; font-weight: bold;">Branch</td>
+                            <td style="padding: 8px;">${env.GIT_BRANCH}</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 8px; font-weight: bold;">Extent Report</td>
+                            <td style="padding: 8px;">
+                                <a href="http://localhost:8080/job/OrangeHRMProject/allure/" style="color: #1a73e8;">Click here</a>
+                            </td>
+                        </tr>
+                    </table>
 
-                Best regards,<br>
-                Automation Team
+                    <p>📎 <b>Build log is attached.</b></p>
+
+                    <br>
+                    <p>Best regards,<br>
+                    <b>Automation Team</b></p>
+                </body>
+                </html>
             """,
             mimeType: 'text/html',
             to: 'divyaranjan1995@gmail.com',
@@ -86,4 +120,5 @@ pipeline {
         )
     }
 }
+
 }
