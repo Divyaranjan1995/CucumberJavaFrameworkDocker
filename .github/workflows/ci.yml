@@ -52,7 +52,7 @@ jobs:
       - name: Build & Run Tests
         run: mvn clean test -Dbrowser=${{ env.BROWSER }}
 
-      # 5. Load Allure history from gh-pages
+      # 5. Load Allure history from main
       - name: Load test report history
         uses: actions/checkout@v4
         if: always()
@@ -72,7 +72,7 @@ jobs:
 
       # 7. Publish Allure report to GitHub Pages
       - name: Publish Allure report
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-main@v3
         if: always()
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
