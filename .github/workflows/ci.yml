@@ -99,8 +99,7 @@ jobs:
           subject: "Project: ${{ github.repository }} | Build #${{ github.run_number }} - ${{ job.status }}"
           to: "divyaranjan1995@gmail.com"
           from: "GitHub Actions <divyaranjan1995@gmail.com>"
-          content_type: text/html
-          body: |
+          html_body: >
             <html>
             <body style="font-family: Arial, sans-serif; font-size: 14px; color: #333;">
               <p>Hello Team,</p>
@@ -117,7 +116,7 @@ jobs:
                 </tr>
                 <tr>
                   <td style="padding: 8px; font-weight: bold;">📜 Build Status</td>
-                  <td style="padding: 8px; color: ${{ job.status == 'success' && 'green' || 'red' }};">
+                  <td style="padding: 8px; color: ${{ job.status == 'success' ? 'green' : 'red' }};">
                     <b>${{ job.status }}</b>
                   </td>
                 </tr>
@@ -137,9 +136,7 @@ jobs:
                 </tr>
                 <tr>
                   <td style="padding: 8px; font-weight: bold;">📎 Allure Report</td>
-                  <td style="padding: 8px;">
-                    (Download artifact: allure-results from this run)
-                  </td>
+                  <td style="padding: 8px;">(Download artifact: allure-results from this run)</td>
                 </tr>
               </table>
 
@@ -148,3 +145,4 @@ jobs:
               <b>Automation Team</b></p>
             </body>
             </html>
+      
