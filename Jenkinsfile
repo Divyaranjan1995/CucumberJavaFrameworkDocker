@@ -71,7 +71,7 @@ pipeline {
 
                     <table style="border-collapse: collapse; width: 100%; max-width: 600px;">
                         <tr>
-                            <td style="padding: 8px; font-weight: bold;">🛠 Project Name</td>
+                            <td style="padding: 8px; font-weight: bold;">Project Name</td>
                             <td style="padding: 8px;">${env.JOB_NAME}</td>
                         </tr>
                         <tr style="background-color: #f9f9f9;">
@@ -99,14 +99,14 @@ pipeline {
                             <td style="padding: 8px;">${env.GIT_BRANCH}</td>
                         </tr>
                         <tr>
-                            <td style="padding: 8px; font-weight: bold;">Extent Report</td>
+                            <td style="padding: 8px; font-weight: bold;">Allure Report</td>
                             <td style="padding: 8px;">
                                 <a href="http://localhost:8080/job/OrangeHRMProject/allure/" style="color: #1a73e8;">Click here</a>
                             </td>
                         </tr>
                     </table>
 
-                    <p>📎 <b>Build log is attached.</b></p>
+                    <p><b>Build log is attached.</b></p>
 
                     <br>
                     <p>Best regards,<br>
