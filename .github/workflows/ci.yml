@@ -36,7 +36,7 @@ jobs:
       - name: Start Selenium Grid via Docker
         run: |
           echo "Starting selenium grid with docker compose"
-          docker-compose -f $COMPOSE_PATH/docker-compose.yml up -d
+          docker compose -f $COMPOSE_PATH/docker-compose.yml up -d
           echo "Waiting for Selenium Grid to be Ready..."
           sleep 30
 
@@ -64,7 +64,7 @@ jobs:
         if: always()
         run: |
           echo "Closing selenium grid with docker compose"
-          docker-compose down
+          docker compose down
           sleep 10
 
 #      # === Post Actions: Email Notification (like Jenkins emailext) ===
