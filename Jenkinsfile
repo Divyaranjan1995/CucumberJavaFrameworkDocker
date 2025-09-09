@@ -62,18 +62,28 @@ pipeline {
     post {
         always {
             emailext (
-                subject: "Build #${env.BUILD_NUMBER} - ${currentBuild.currentResult}",
-                body: """
-                    <p>Hi Team,</p>
-                    <p>The Jenkins build <b>#${env.BUILD_NUMBER}</b> for job
-                    <b>${env.JOB_NAME}</b> has finished with status:
-                    <b style="color:red">${currentBuild.currentResult}</b>.</p>
+            subject: "Project: ${env.JOB_NAME} | Build #${env.BUILD_NUMBER} - ${currentBuild.currentResult}",
+            body: """
+                Hello Team,<br><br>
+                The latest Jenkins build has completed.<br><br>
 
-                    <p><a href="${env.BUILD_URL}">Click here</a> to see full build details.</p>
-                """,
-                mimeType: 'text/html',
-                to: 'divyaranjan1995@gmail.com'
-            )
-        }
+                🛠 <b>Project Name</b>: ${env.JOB_NAME}<br>
+                🔢 <b>Build Number</b>: #${env.BUILD_NUMBER}<br>
+                📜 <b>Build Status</b>: ${currentBuild.currentResult}<br>
+                🔗 <b>Build URL</b>: <a href="${env.BUILD_URL}">Click here</a><br>
+                📜 <b>Last Commit:</b><br><br>
+                ${env.GIT_COMMIT}<br>
+                📂 <b>Branch</b>: ${env.GIT_BRANCH}<br>
+                📎 <b>Build log is attached.</b><br>
+                📎 <b>Extent Report:</b> <a href="http://localhost:8080/job/OrangeHRMProject/allure/">Click here</a><br><br>
+
+                Best regards,<br>
+                Automation Team
+            """,
+            mimeType: 'text/html',
+            to: 'divyaranjan1995@gmail.com',
+            attachLog: true
+        )
     }
+}
 }
