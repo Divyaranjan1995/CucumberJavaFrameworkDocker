@@ -95,7 +95,7 @@ jobs:
           server_address: smtp.gmail.com
           server_port: 465
           username: "divyaranjan1995@gmail.com"
-          password: "yqvr olzc chtu lcuw"
+          password: ${{ secrets.GMAIL_APP_PASSWORD }}
           subject: "Project: ${{ github.repository }} | Build #${{ github.run_number }} - ${{ job.status }}"
           to: "divyaranjan1995@gmail.com"
           from: "GitHub Actions <divyaranjan1995@gmail.com>"
@@ -116,7 +116,7 @@ jobs:
                 </tr>
                 <tr>
                   <td style="padding: 8px; font-weight: bold;">📜 Build Status</td>
-                  <td style="padding: 8px; color: ${{ job.status == 'success' ? 'green' : 'red' }};">
+                  <td style="padding: 8px; color: ${{ job.status == 'success' && 'green' || 'red' }};">
                     <b>${{ job.status }}</b>
                   </td>
                 </tr>
@@ -145,4 +145,5 @@ jobs:
               <b>Automation Team</b></p>
             </body>
             </html>
+      
       
