@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9b30046-ed6a-43b1-b9a0-fe08e77e4388" name="Changes" comment="added sonar workflow">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/workFlowLearning.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/sonarQube.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d9b30046-ed6a-43b1-b9a0-fe08e77e4388" name="Changes" comment="added workflow for learning purpose">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/workFlowLearning.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/workFlowLearning.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -521,7 +519,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757511973845</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="added workflow for learning purpose">
+      <option name="closed" value="true" />
+      <created>1757513547162</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1757513547162</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -536,7 +542,8 @@
     <MESSAGE value="updated email body format." />
     <MESSAGE value="added github actions" />
     <MESSAGE value="added sonar workflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="added sonar workflow" />
+    <MESSAGE value="added workflow for learning purpose" />
+    <option name="LAST_COMMIT_MESSAGE" value="added workflow for learning purpose" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
