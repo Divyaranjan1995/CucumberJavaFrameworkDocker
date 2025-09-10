@@ -1,0 +1,36 @@
+name: Learning GitHub Actions
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+  workflow_dispatch:
+    inputs:
+      browser:
+        description: Select the browser to execute the cases
+        required: true
+        type: choice
+        default: 'chrome'
+        options:
+          - edge
+          - chrome
+          - firefox
+
+      saveResult:
+        description: Whether to save the build result
+        required: true
+        type: choice
+        default: 'true'
+        options:
+          - true
+          - false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+
