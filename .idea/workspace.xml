@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9b30046-ed6a-43b1-b9a0-fe08e77e4388" name="Changes" comment="added github actions">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/sonarQube.yml" afterDir="false" />
+    <list default="true" id="d9b30046-ed6a-43b1-b9a0-fe08e77e4388" name="Changes" comment="added sonar workflow">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/sonarQube.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/sonarQube.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -504,7 +504,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757432697771</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="added sonar workflow">
+      <option name="closed" value="true" />
+      <created>1757511602033</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1757511602033</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -518,7 +526,8 @@
     <MESSAGE value="parameterised the browser from jenkins pipeline" />
     <MESSAGE value="updated email body format." />
     <MESSAGE value="added github actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="added github actions" />
+    <MESSAGE value="added sonar workflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="added sonar workflow" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
