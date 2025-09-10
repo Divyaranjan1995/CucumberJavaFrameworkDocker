@@ -1,0 +1,4 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","Orange HRM application cases","Login with Valid credentials and verify the homePage contains Employee Distribution by Sub Unit","0","0","2","0","0"
+"","Orange HRM application cases","Login with Valid credentials and verify the homePage contains Buzz Latest Posts","0","0","1","0","0"
+"","Orange HRM application cases","Login with Valid credentials and verify the homePage contains Employees on Leave Today","0","0","1","0","0"
